@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="main">
+        <div class="banner-wrap">
+            <div class="banner">
+                {{ dictionaryList.S_MEN_NOT }}
+            </div>
+        </div>
+    
+        <div class="main-wrap">
+            <div class="main-grid">
+                <div class="list-wrap">
+                    <template v-for="(item, index) in monsterList">
+                        <div :key="index" :class="`list-item${index}`" class="list-item">
+                            <div class="list-monster">{{ dictionaryList[item.dictionary] }}</div>
+                        </div>
+                    </template>
+                </div>
+                <div class="detail-wrap">
+                    <div class="title">{{ dictionaryList.S_MON_OSA }}</div>
+                </div>
+            </div>
+            <div class="select-wrap">
+                <i class="fas fa-chevron-up"></i>
+                <div class="select-list"></div>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.10/vue.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vuex/2.1.1/vuex.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

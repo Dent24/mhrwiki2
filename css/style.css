@@ -1,0 +1,526 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: '微軟正黑體';
+}
+
+body,
+.banner-wrap {
+  min-width: 1200px;
+}
+
+body {
+  background: #F0ECE1;
+}
+
+body,
+#main {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.banner-wrap {
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  background: #DAD4C8;
+  z-index: 100;
+}
+
+.banner-wrap .banner {
+  margin: 0 auto;
+  width: 1200px;
+  height: 60px;
+  line-height: 60px;
+}
+
+.main-wrap,
+.main-grid {
+  width: 100vw;
+  min-width: 1200px;
+  height: 100vh;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.main-wrap {
+  position: relative;
+}
+
+.main-wrap .main-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20% 80%;
+      grid-template-columns: 20% 80%;
+  padding-top: 60px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main-wrap .main-grid .list-wrap {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.main-wrap .main-grid .list-wrap .list-item {
+  height: 150px;
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+.main-wrap .main-grid .list-wrap .list-item .list-monster {
+  float: right;
+  padding: 120px 0 0 10px;
+  width: 200px;
+  height: 150px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: 300px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.main-wrap .main-grid .list-wrap .list-item:hover {
+  opacity: 1;
+}
+
+.main-wrap .main-grid .list-wrap .list-item1 {
+  background: #D35931;
+}
+
+.main-wrap .main-grid .list-wrap .list-item1 .list-monster {
+  color: #D35931;
+  background-image: url("../image/monsterList/1.jpg");
+  -webkit-box-shadow: inset 100px 0 50px 0 #D2A48D;
+          box-shadow: inset 100px 0 50px 0 #D2A48D;
+}
+
+.main-wrap .main-grid .list-wrap .list-item2 {
+  background: #525990;
+}
+
+.main-wrap .main-grid .list-wrap .list-item2 .list-monster {
+  color: #525990;
+  background-image: url("../image/monsterList/2.jpg");
+  -webkit-box-shadow: inset 100px 0 50px 0 #BFCAD8;
+          box-shadow: inset 100px 0 50px 0 #BFCAD8;
+}
+
+.main-wrap .main-grid .list-wrap .list-item3 {
+  background: #DDAC58;
+}
+
+.main-wrap .main-grid .list-wrap .list-item3 .list-monster {
+  color: #DDAC58;
+  background-image: url("../image/monsterList/3.jpg");
+  -webkit-box-shadow: inset 100px 0 50px 0 #E7CBB0;
+          box-shadow: inset 100px 0 50px 0 #E7CBB0;
+}
+
+.main-wrap .main-grid .list-wrap .list-item4 {
+  background: #7F41F3;
+}
+
+.main-wrap .main-grid .list-wrap .list-item4 .list-monster {
+  color: #7F41F3;
+  background-image: url("../image/monsterList/4.jpg");
+  -webkit-box-shadow: inset 100px 0 50px 0 #D5ABEC;
+          box-shadow: inset 100px 0 50px 0 #D5ABEC;
+}
+
+.main-wrap .main-grid .list-wrap .list-item5 {
+  background: #7F8AA3;
+}
+
+.main-wrap .main-grid .list-wrap .list-item5 .list-monster {
+  color: #7F8AA3;
+  background-image: url("../image/monsterList/5.jpg");
+  -webkit-box-shadow: inset 100px 0 50px 0 #E6E0C0;
+          box-shadow: inset 100px 0 50px 0 #E6E0C0;
+}
+
+.main-wrap .main-grid .list-wrap .list-item6 {
+  background: #202440;
+}
+
+.main-wrap .main-grid .list-wrap .list-item6 .list-monster {
+  color: #202440;
+  background-image: url("../image/monsterList/6.jpg");
+  -webkit-box-shadow: inset 100px 0 50px 0 #898BA4;
+          box-shadow: inset 100px 0 50px 0 #898BA4;
+}
+
+.main-wrap .main-grid .list-wrap .list-item7 {
+  background: #CB5232;
+}
+
+.main-wrap .main-grid .list-wrap .list-item7 .list-monster {
+  color: #CB5232;
+  background-image: url("../image/monsterList/7.jpg");
+  -webkit-box-shadow: inset 100px 0 50px 0 #CC826D;
+          box-shadow: inset 100px 0 50px 0 #CC826D;
+}
+
+.main-wrap .main-grid .list-wrap .list-item8 {
+  background: #3C3941;
+}
+
+.main-wrap .main-grid .list-wrap .list-item8 .list-monster {
+  color: #3C3941;
+  background-image: url("../image/monsterList/8.jpg");
+  -webkit-box-shadow: inset 100px 0 50px 0 #C0B396;
+          box-shadow: inset 100px 0 50px 0 #C0B396;
+}
+
+.main-wrap .main-grid .list-wrap .list-item9 {
+  background: #CA9E47;
+}
+
+.main-wrap .main-grid .list-wrap .list-item9 .list-monster {
+  color: #CA9E47;
+  background-image: url("../image/monsterList/9.jpg");
+  -webkit-box-shadow: inset 100px 0 50px 0 #D7B980;
+          box-shadow: inset 100px 0 50px 0 #D7B980;
+}
+
+.main-wrap .main-grid .list-wrap .list-item10 {
+  background: #85532F;
+}
+
+.main-wrap .main-grid .list-wrap .list-item10 .list-monster {
+  color: #85532F;
+  background-image: url("../image/monsterList/10.jpg");
+  -webkit-box-shadow: inset 100px 0 50px 0 #D4BD9C;
+          box-shadow: inset 100px 0 50px 0 #D4BD9C;
+}
+
+.main-wrap .main-grid .list-wrap .list-item11 {
+  background: #C9ABA0;
+}
+
+.main-wrap .main-grid .list-wrap .list-item11 .list-monster {
+  color: #C9ABA0;
+  background-image: url("../image/monsterList/11.jpg");
+  -webkit-box-shadow: inset 100px 0 50px 0 #D6C9BB;
+          box-shadow: inset 100px 0 50px 0 #D6C9BB;
+}
+
+.main-wrap .main-grid .list-wrap .list-item12 {
+  background: #AB8523;
+}
+
+.main-wrap .main-grid .list-wrap .list-item12 .list-monster {
+  color: #AB8523;
+  background-image: url("../image/monsterList/12.jpg");
+  -webkit-box-shadow: inset 100px 0 50px 0 #CDC399;
+          box-shadow: inset 100px 0 50px 0 #CDC399;
+}
+
+.main-wrap .main-grid .list-wrap .list-item13 {
+  background: #3D5060;
+}
+
+.main-wrap .main-grid .list-wrap .list-item13 .list-monster {
+  color: #3D5060;
+  background-image: url("../image/monsterList/13.jpg");
+  -webkit-box-shadow: inset 100px 0 50px 0 #639E94;
+          box-shadow: inset 100px 0 50px 0 #639E94;
+}
+
+.main-wrap .main-grid .list-wrap .list-item14 {
+  background: #71977D;
+}
+
+.main-wrap .main-grid .list-wrap .list-item14 .list-monster {
+  color: #71977D;
+  background-image: url("../image/monsterList/14.jpg");
+  -webkit-box-shadow: inset 100px 0 50px 0 #71BAA0;
+          box-shadow: inset 100px 0 50px 0 #71BAA0;
+}
+
+.main-wrap .main-grid .list-wrap .list-item15 {
+  background: #32344D;
+}
+
+.main-wrap .main-grid .list-wrap .list-item15 .list-monster {
+  color: #32344D;
+  background-image: url("../image/monsterList/15.jpg");
+  -webkit-box-shadow: inset 100px 0 50px 0 #B6a598;
+          box-shadow: inset 100px 0 50px 0 #B6a598;
+}
+
+.main-wrap .main-grid .list-wrap .list-item16 {
+  background: #667E4E;
+}
+
+.main-wrap .main-grid .list-wrap .list-item16 .list-monster {
+  color: #667E4E;
+  background-image: url("../image/monsterList/16.jpg");
+  -webkit-box-shadow: inset 100px 0 50px 0 #B0B4A4;
+          box-shadow: inset 100px 0 50px 0 #B0B4A4;
+}
+
+.main-wrap .main-grid .list-wrap .list-item17 {
+  background: #9C81B1;
+}
+
+.main-wrap .main-grid .list-wrap .list-item17 .list-monster {
+  color: #9C81B1;
+  background-image: url("../image/monsterList/17.jpg");
+  -webkit-box-shadow: inset 100px 0 50px 0 #C9BBD4;
+          box-shadow: inset 100px 0 50px 0 #C9BBD4;
+}
+
+.main-wrap .main-grid .list-wrap .list-item18 {
+  background: #605744;
+}
+
+.main-wrap .main-grid .list-wrap .list-item18 .list-monster {
+  color: #605744;
+  background-image: url("../image/monsterList/18.jpg");
+  -webkit-box-shadow: inset 100px 0 50px 0 #BFC3AB;
+          box-shadow: inset 100px 0 50px 0 #BFC3AB;
+}
+
+.main-wrap .main-grid .list-wrap .list-item19 {
+  background: #D1CDB4;
+}
+
+.main-wrap .main-grid .list-wrap .list-item19 .list-monster {
+  color: #D1CDB4;
+  background-image: url("../image/monsterList/19.jpg");
+  -webkit-box-shadow: inset 100px 0 50px 0 #EFECE2;
+          box-shadow: inset 100px 0 50px 0 #EFECE2;
+}
+
+.main-wrap .main-grid .list-wrap .list-item20 {
+  background: #B9D2C5;
+}
+
+.main-wrap .main-grid .list-wrap .list-item20 .list-monster {
+  color: #B9D2C5;
+  background-image: url("../image/monsterList/20.jpg");
+  -webkit-box-shadow: inset 100px 0 50px 0 #DDDFDE;
+          box-shadow: inset 100px 0 50px 0 #DDDFDE;
+}
+
+.main-wrap .main-grid .list-wrap .list-item21 {
+  background: #242440;
+}
+
+.main-wrap .main-grid .list-wrap .list-item21 .list-monster {
+  color: #242440;
+  background-image: url("../image/monsterList/21.jpg");
+  -webkit-box-shadow: inset 100px 0 50px 0 #939297;
+          box-shadow: inset 100px 0 50px 0 #939297;
+}
+
+.main-wrap .main-grid .list-wrap .list-item22 {
+  background: #DD6660;
+}
+
+.main-wrap .main-grid .list-wrap .list-item22 .list-monster {
+  color: #DD6660;
+  background-image: url("../image/monsterList/22.jpg");
+  -webkit-box-shadow: inset 100px 0 50px 0 #D69E99;
+          box-shadow: inset 100px 0 50px 0 #D69E99;
+}
+
+.main-wrap .main-grid .list-wrap .list-item23 {
+  background: #425563;
+}
+
+.main-wrap .main-grid .list-wrap .list-item23 .list-monster {
+  color: #425563;
+  background-image: url("../image/monsterList/23.jpg");
+  -webkit-box-shadow: inset 100px 0 50px 0 #939E9F;
+          box-shadow: inset 100px 0 50px 0 #939E9F;
+}
+
+.main-wrap .main-grid .list-wrap .list-item24 {
+  background: #472E60;
+}
+
+.main-wrap .main-grid .list-wrap .list-item24 .list-monster {
+  color: #472E60;
+  background-image: url("../image/monsterList/24.jpg");
+  -webkit-box-shadow: inset 100px 0 50px 0 #BD86A6;
+          box-shadow: inset 100px 0 50px 0 #BD86A6;
+}
+
+.main-wrap .main-grid .list-wrap .list-item25 {
+  background: #212237;
+}
+
+.main-wrap .main-grid .list-wrap .list-item25 .list-monster {
+  color: #212237;
+  background-image: url("../image/monsterList/25.jpg");
+  -webkit-box-shadow: inset 100px 0 50px 0 #A0B4AB;
+          box-shadow: inset 100px 0 50px 0 #A0B4AB;
+}
+
+.main-wrap .main-grid .list-wrap .list-item26 {
+  background: #AE5E47;
+}
+
+.main-wrap .main-grid .list-wrap .list-item26 .list-monster {
+  color: #AE5E47;
+  background-image: url("../image/monsterList/26.jpg");
+  -webkit-box-shadow: inset 100px 0 50px 0 #CC9F92;
+          box-shadow: inset 100px 0 50px 0 #CC9F92;
+}
+
+.main-wrap .main-grid .list-wrap .list-item27 {
+  background: #6A4E3C;
+}
+
+.main-wrap .main-grid .list-wrap .list-item27 .list-monster {
+  color: #6A4E3C;
+  background-image: url("../image/monsterList/27.jpg");
+  -webkit-box-shadow: inset 100px 0 50px 0 #A8A2A2;
+          box-shadow: inset 100px 0 50px 0 #A8A2A2;
+}
+
+.main-wrap .main-grid .list-wrap .list-item28 {
+  background: #27A398;
+}
+
+.main-wrap .main-grid .list-wrap .list-item28 .list-monster {
+  color: #27A398;
+  background-image: url("../image/monsterList/28.jpg");
+  -webkit-box-shadow: inset 100px 0 50px 0 #D6F2E3;
+          box-shadow: inset 100px 0 50px 0 #D6F2E3;
+}
+
+.main-wrap .main-grid .list-wrap .list-item29 {
+  background: #BD8D46;
+}
+
+.main-wrap .main-grid .list-wrap .list-item29 .list-monster {
+  color: #BD8D46;
+  background-image: url("../image/monsterList/29.jpg");
+  -webkit-box-shadow: inset 100px 0 50px 0 #D8D29D;
+          box-shadow: inset 100px 0 50px 0 #D8D29D;
+}
+
+.main-wrap .main-grid .list-wrap .list-item30 {
+  background: #C79957;
+}
+
+.main-wrap .main-grid .list-wrap .list-item30 .list-monster {
+  color: #C79957;
+  background-image: url("../image/monsterList/30.jpg");
+  -webkit-box-shadow: inset 100px 0 50px 0 #D7B788;
+          box-shadow: inset 100px 0 50px 0 #D7B788;
+}
+
+.main-wrap .main-grid .list-wrap .list-item31 {
+  background: #211D25;
+}
+
+.main-wrap .main-grid .list-wrap .list-item31 .list-monster {
+  color: #211D25;
+  background-image: url("../image/monsterList/31.jpg");
+  -webkit-box-shadow: inset 100px 0 50px 0 #C3BDB0;
+          box-shadow: inset 100px 0 50px 0 #C3BDB0;
+}
+
+.main-wrap .main-grid .list-wrap .list-item32 {
+  background: #4A4339;
+}
+
+.main-wrap .main-grid .list-wrap .list-item32 .list-monster {
+  color: #4A4339;
+  background-image: url("../image/monsterList/32.jpg");
+  -webkit-box-shadow: inset 100px 0 50px 0 #87676C;
+          box-shadow: inset 100px 0 50px 0 #87676C;
+}
+
+.main-wrap .main-grid .list-wrap .list-item33 {
+  background: #3C385B;
+}
+
+.main-wrap .main-grid .list-wrap .list-item33 .list-monster {
+  color: #3C385B;
+  background-image: url("../image/monsterList/33.jpg");
+  -webkit-box-shadow: inset 100px 0 50px 0 #A5B0BA;
+          box-shadow: inset 100px 0 50px 0 #A5B0BA;
+}
+
+.main-wrap .main-grid .list-wrap .list-item34 {
+  background: #A48869;
+}
+
+.main-wrap .main-grid .list-wrap .list-item34 .list-monster {
+  color: #A48869;
+  background-image: url("../image/monsterList/34.jpg");
+  -webkit-box-shadow: inset 100px 0 50px 0 #C7B884;
+          box-shadow: inset 100px 0 50px 0 #C7B884;
+}
+
+.main-wrap .main-grid .detail-wrap {
+  padding: 60px 60px 0 80px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main-wrap .main-grid .detail-wrap .title {
+  display: inline-block;
+  padding-bottom: 12px;
+  font-size: 60px;
+  border-bottom: 5px solid transparent;
+  -o-border-image: linear-gradient(to right, #D35931, #D2A48D);
+     border-image: -webkit-gradient(linear, left top, right top, from(#D35931), to(#D2A48D));
+     border-image: linear-gradient(to right, #D35931, #D2A48D);
+  border-image-slice: 1;
+}
+
+.main-wrap .select-wrap {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 60px auto 60px;
+      grid-template-rows: 60px auto 60px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-top: 60px;
+  width: 60px;
+  height: 100vh;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #E6D4C8;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-box-shadow: -10px 0 10px 1px #B09B7F;
+          box-shadow: -10px 0 10px 1px #B09B7F;
+}
+
+.main-wrap .select-wrap i {
+  line-height: 60px;
+  text-align: center;
+  font-size: 36px;
+  color: #B09B7F;
+  cursor: pointer;
+}
+
+.main-wrap .select-wrap i.fa-chevron-up {
+  -webkit-box-shadow: inset 0 -15px 15px -15px #B09B7F;
+          box-shadow: inset 0 -15px 15px -15px #B09B7F;
+}
+
+.main-wrap .select-wrap i.fa-chevron-down {
+  -webkit-box-shadow: inset 0 15px 15px -15px #B09B7F;
+          box-shadow: inset 0 15px 15px -15px #B09B7F;
+}
+
+.main-wrap .select-wrap i:hover {
+  background: #B09B7F;
+  color: #E6D4C8;
+}
+/*# sourceMappingURL=style.css.map */
