@@ -24,7 +24,7 @@
                 </div>
                 <template v-for="(item, index) in monsterList">
                     <div v-if="nowMonster === index" :key="index" :class="`detail-wrap${index} detail-wrap`">
-                        <div class="title">{{ dictionaryList[item.dictionary] }}{{ index }}</div>
+                        <div class="title">{{ dictionaryList[item.dictionary] }}</div>
                         <div class="detail">
                             <div class="detail-left">
                                 <img :src="`./image/monsterList/${index}.jpg`" alt="dictionaryList[item.dictionary]" width="100%">

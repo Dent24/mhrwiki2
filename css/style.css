@@ -467,6 +467,138 @@ body,
           box-shadow: inset 100px 0 50px 0 #C7B884;
 }
 
+.main-wrap .main-grid .list-wrap .list-item35 {
+  background: #262841;
+}
+
+.main-wrap .main-grid .list-wrap .list-item35 .list-monster {
+  color: #262841;
+  background-image: url("../image/monsterList/35.jpg");
+  -webkit-box-shadow: inset 100px 0 50px 0 #7D7B86;
+          box-shadow: inset 100px 0 50px 0 #7D7B86;
+}
+
+.main-wrap .main-grid .list-wrap .list-item36 {
+  background: #A487B5;
+}
+
+.main-wrap .main-grid .list-wrap .list-item36 .list-monster {
+  color: #A487B5;
+  background-image: url("../image/monsterList/36.jpg");
+  -webkit-box-shadow: inset 100px 0 50px 0 #CA8DC6;
+          box-shadow: inset 100px 0 50px 0 #CA8DC6;
+}
+
+.main-wrap .main-grid .list-wrap .list-item37 {
+  background: #B06369;
+}
+
+.main-wrap .main-grid .list-wrap .list-item37 .list-monster {
+  color: #B06369;
+  background-image: url("../image/monsterList/37.jpg");
+  -webkit-box-shadow: inset 100px 0 50px 0 #E0A6A2;
+          box-shadow: inset 100px 0 50px 0 #E0A6A2;
+}
+
+.main-wrap .main-grid .list-wrap .list-item38 {
+  background: #1F233E;
+}
+
+.main-wrap .main-grid .list-wrap .list-item38 .list-monster {
+  color: #1F233E;
+  background-image: url("../image/monsterList/38.jpg");
+  -webkit-box-shadow: inset 100px 0 50px 0 #E35549;
+          box-shadow: inset 100px 0 50px 0 #E35549;
+}
+
+.main-wrap .main-grid .list-wrap .list-item39 {
+  background: #D2B154;
+}
+
+.main-wrap .main-grid .list-wrap .list-item39 .list-monster {
+  color: #D2B154;
+  background-image: url("../image/monsterList/39.jpg");
+  -webkit-box-shadow: inset 100px 0 50px 0 #9085D3;
+          box-shadow: inset 100px 0 50px 0 #9085D3;
+}
+
+.main-wrap .main-grid .list-wrap .list-item40 {
+  background: #D53326;
+}
+
+.main-wrap .main-grid .list-wrap .list-item40 .list-monster {
+  color: #D53326;
+  background-image: url("../image/monsterList/40.jpg");
+  -webkit-box-shadow: inset 100px 0 50px 0 #E29581;
+          box-shadow: inset 100px 0 50px 0 #E29581;
+}
+
+.main-wrap .main-grid .list-wrap .list-item41 {
+  background: #4D5055;
+}
+
+.main-wrap .main-grid .list-wrap .list-item41 .list-monster {
+  color: #4D5055;
+  background-image: url("../image/monsterList/41.jpg");
+  -webkit-box-shadow: inset 100px 0 50px 0 #9A978E;
+          box-shadow: inset 100px 0 50px 0 #9A978E;
+}
+
+.main-wrap .main-grid .list-wrap .list-item42 {
+  background: #4A3339;
+}
+
+.main-wrap .main-grid .list-wrap .list-item42 .list-monster {
+  color: #4A3339;
+  background-image: url("../image/monsterList/42.jpg");
+  -webkit-box-shadow: inset 100px 0 50px 0 #931B91;
+          box-shadow: inset 100px 0 50px 0 #931B91;
+}
+
+.main-wrap .main-grid .list-wrap .list-item43 {
+  background: #1F1E40;
+}
+
+.main-wrap .main-grid .list-wrap .list-item43 .list-monster {
+  color: #1F1E40;
+  background-image: url("../image/monsterList/43.jpg");
+  -webkit-box-shadow: inset 100px 0 50px 0 #AB4447;
+          box-shadow: inset 100px 0 50px 0 #AB4447;
+}
+
+.main-wrap .main-grid .list-wrap .list-item44 {
+  background: #653F3C;
+}
+
+.main-wrap .main-grid .list-wrap .list-item44 .list-monster {
+  color: #653F3C;
+  background-image: url("../image/monsterList/44.jpg");
+  -webkit-box-shadow: inset 100px 0 50px 0 #C2AC9F;
+          box-shadow: inset 100px 0 50px 0 #C2AC9F;
+}
+
+.main-wrap .main-grid .list-wrap .list-item45 {
+  background: #4B361B;
+}
+
+.main-wrap .main-grid .list-wrap .list-item45 .list-monster {
+  color: #4B361B;
+  background-image: url("../image/monsterList/45.jpg");
+  -webkit-box-shadow: inset 100px 0 50px 0 #857E6E;
+          box-shadow: inset 100px 0 50px 0 #857E6E;
+}
+
+.main-wrap .main-grid .list-wrap .list-item46 {
+  background: #244F33;
+}
+
+.main-wrap .main-grid .list-wrap .list-item46 .list-monster {
+  color: #244F33;
+  background-image: url("../image/monsterList/46.jpg");
+  -webkit-box-shadow: inset 100px 0 50px 0 #C1A95F;
+          box-shadow: inset 100px 0 50px 0 #C1A95F;
+}
+
 .main-wrap .main-grid .detail-wrap {
   padding: 60px 100px 20px 80px;
   -webkit-box-sizing: border-box;
@@ -778,6 +910,90 @@ body,
   -o-border-image: linear-gradient(to right, #A48869, #C7B884);
      border-image: -webkit-gradient(linear, left top, right top, from(#A48869), to(#C7B884));
      border-image: linear-gradient(to right, #A48869, #C7B884);
+  border-image-slice: 1;
+}
+
+.main-wrap .main-grid .detail-wrap35 .title {
+  -o-border-image: linear-gradient(to right, #262841, #7D7B86);
+     border-image: -webkit-gradient(linear, left top, right top, from(#262841), to(#7D7B86));
+     border-image: linear-gradient(to right, #262841, #7D7B86);
+  border-image-slice: 1;
+}
+
+.main-wrap .main-grid .detail-wrap36 .title {
+  -o-border-image: linear-gradient(to right, #A487B5, #CA8DC6);
+     border-image: -webkit-gradient(linear, left top, right top, from(#A487B5), to(#CA8DC6));
+     border-image: linear-gradient(to right, #A487B5, #CA8DC6);
+  border-image-slice: 1;
+}
+
+.main-wrap .main-grid .detail-wrap37 .title {
+  -o-border-image: linear-gradient(to right, #B06369, #E0A6A2);
+     border-image: -webkit-gradient(linear, left top, right top, from(#B06369), to(#E0A6A2));
+     border-image: linear-gradient(to right, #B06369, #E0A6A2);
+  border-image-slice: 1;
+}
+
+.main-wrap .main-grid .detail-wrap38 .title {
+  -o-border-image: linear-gradient(to right, #1F233E, #E35549);
+     border-image: -webkit-gradient(linear, left top, right top, from(#1F233E), to(#E35549));
+     border-image: linear-gradient(to right, #1F233E, #E35549);
+  border-image-slice: 1;
+}
+
+.main-wrap .main-grid .detail-wrap39 .title {
+  -o-border-image: linear-gradient(to right, #D2B154, #9085D3);
+     border-image: -webkit-gradient(linear, left top, right top, from(#D2B154), to(#9085D3));
+     border-image: linear-gradient(to right, #D2B154, #9085D3);
+  border-image-slice: 1;
+}
+
+.main-wrap .main-grid .detail-wrap40 .title {
+  -o-border-image: linear-gradient(to right, #D53326, #E29581);
+     border-image: -webkit-gradient(linear, left top, right top, from(#D53326), to(#E29581));
+     border-image: linear-gradient(to right, #D53326, #E29581);
+  border-image-slice: 1;
+}
+
+.main-wrap .main-grid .detail-wrap41 .title {
+  -o-border-image: linear-gradient(to right, #4D5055, #9A978E);
+     border-image: -webkit-gradient(linear, left top, right top, from(#4D5055), to(#9A978E));
+     border-image: linear-gradient(to right, #4D5055, #9A978E);
+  border-image-slice: 1;
+}
+
+.main-wrap .main-grid .detail-wrap42 .title {
+  -o-border-image: linear-gradient(to right, #4A3339, #931B91);
+     border-image: -webkit-gradient(linear, left top, right top, from(#4A3339), to(#931B91));
+     border-image: linear-gradient(to right, #4A3339, #931B91);
+  border-image-slice: 1;
+}
+
+.main-wrap .main-grid .detail-wrap43 .title {
+  -o-border-image: linear-gradient(to right, #1F1E40, #AB4447);
+     border-image: -webkit-gradient(linear, left top, right top, from(#1F1E40), to(#AB4447));
+     border-image: linear-gradient(to right, #1F1E40, #AB4447);
+  border-image-slice: 1;
+}
+
+.main-wrap .main-grid .detail-wrap44 .title {
+  -o-border-image: linear-gradient(to right, #653F3C, #C2AC9F);
+     border-image: -webkit-gradient(linear, left top, right top, from(#653F3C), to(#C2AC9F));
+     border-image: linear-gradient(to right, #653F3C, #C2AC9F);
+  border-image-slice: 1;
+}
+
+.main-wrap .main-grid .detail-wrap45 .title {
+  -o-border-image: linear-gradient(to right, #4B361B, #857E6E);
+     border-image: -webkit-gradient(linear, left top, right top, from(#4B361B), to(#857E6E));
+     border-image: linear-gradient(to right, #4B361B, #857E6E);
+  border-image-slice: 1;
+}
+
+.main-wrap .main-grid .detail-wrap46 .title {
+  -o-border-image: linear-gradient(to right, #244F33, #C1A95F);
+     border-image: -webkit-gradient(linear, left top, right top, from(#244F33), to(#C1A95F));
+     border-image: linear-gradient(to right, #244F33, #C1A95F);
   border-image-slice: 1;
 }
 
@@ -1147,5 +1363,113 @@ body,
 .main-wrap .select-wrap .select-list34 .selected {
   background: #A48869;
   color: #C7B884;
+}
+
+.main-wrap .select-wrap .select-list35 .select:hover:not(.selected) {
+  color: #262841;
+}
+
+.main-wrap .select-wrap .select-list35 .selected {
+  background: #262841;
+  color: #7D7B86;
+}
+
+.main-wrap .select-wrap .select-list36 .select:hover:not(.selected) {
+  color: #A487B5;
+}
+
+.main-wrap .select-wrap .select-list36 .selected {
+  background: #A487B5;
+  color: #CA8DC6;
+}
+
+.main-wrap .select-wrap .select-list37 .select:hover:not(.selected) {
+  color: #B06369;
+}
+
+.main-wrap .select-wrap .select-list37 .selected {
+  background: #B06369;
+  color: #E0A6A2;
+}
+
+.main-wrap .select-wrap .select-list38 .select:hover:not(.selected) {
+  color: #1F233E;
+}
+
+.main-wrap .select-wrap .select-list38 .selected {
+  background: #1F233E;
+  color: #E35549;
+}
+
+.main-wrap .select-wrap .select-list39 .select:hover:not(.selected) {
+  color: #D2B154;
+}
+
+.main-wrap .select-wrap .select-list39 .selected {
+  background: #D2B154;
+  color: #9085D3;
+}
+
+.main-wrap .select-wrap .select-list40 .select:hover:not(.selected) {
+  color: #D53326;
+}
+
+.main-wrap .select-wrap .select-list40 .selected {
+  background: #D53326;
+  color: #E29581;
+}
+
+.main-wrap .select-wrap .select-list41 .select:hover:not(.selected) {
+  color: #4D5055;
+}
+
+.main-wrap .select-wrap .select-list41 .selected {
+  background: #4D5055;
+  color: #9A978E;
+}
+
+.main-wrap .select-wrap .select-list42 .select:hover:not(.selected) {
+  color: #4A3339;
+}
+
+.main-wrap .select-wrap .select-list42 .selected {
+  background: #4A3339;
+  color: #931B91;
+}
+
+.main-wrap .select-wrap .select-list43 .select:hover:not(.selected) {
+  color: #1F1E40;
+}
+
+.main-wrap .select-wrap .select-list43 .selected {
+  background: #1F1E40;
+  color: #AB4447;
+}
+
+.main-wrap .select-wrap .select-list44 .select:hover:not(.selected) {
+  color: #653F3C;
+}
+
+.main-wrap .select-wrap .select-list44 .selected {
+  background: #653F3C;
+  color: #C2AC9F;
+}
+
+.main-wrap .select-wrap .select-list45 .select:hover:not(.selected) {
+  color: #4B361B;
+}
+
+.main-wrap .select-wrap .select-list45 .selected {
+  background: #4B361B;
+  color: #857E6E;
+}
+
+.main-wrap .select-wrap .select-list46 .select:hover:not(.selected) {
+  color: #244F33;
+}
+
+.main-wrap .select-wrap .select-list46 .selected {
+  background: #244F33;
+  color: #C1A95F;
 }
 /*# sourceMappingURL=style.css.map */
