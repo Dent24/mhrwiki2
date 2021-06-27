@@ -17,19 +17,73 @@
             <div class="main-grid">
                 <div class="list-wrap">
                     <template v-for="(item, index) in monsterList">
-                        <div :key="index" :class="`list-item${index}`" class="list-item">
+                        <div :key="index" :class="itemClass(index)" @click="nowMonster = index; nowContent = 'detail'">
                             <div class="list-monster">{{ dictionaryList[item.dictionary] }}</div>
                         </div>
                     </template>
                 </div>
-                <div class="detail-wrap">
-                    <div class="title">{{ dictionaryList.S_MON_OSA }}</div>
-                </div>
+                <template v-for="(item, index) in monsterList">
+                    <div v-if="nowMonster === index" :key="index" :class="`detail-wrap${index} detail-wrap`">
+                        <div class="title">{{ dictionaryList[item.dictionary] }}{{ index }}</div>
+                        <div class="detail">
+                            <div class="detail-left">
+                                <img :src="`./image/monsterList/${index}.jpg`" alt="dictionaryList[item.dictionary]" width="100%">
+                                <div class="monster-name">{{ dictionaryList.S_MEN_NAM }}<span>{{ dictionaryList[item.dictionary] }}</span></div>
+                                <div class="monster-danger">
+                                    {{ dictionaryList.S_MEN_DEG }}
+                                    <div class="danger-list">
+                                        <template v-for="n in 10">
+                                            <i class="fa-star" :class="[n <= item.danger ? 'fas' : 'far']"></i>
+                                        </template>
+                                        ({{ item.danger }})
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="detail-right">
+                                <template v-if="nowContent === 'detail'">
+                                    <template v-for="(weakItem, weakIndex) in weaknessList[index]">
+                                        <div :key="weakIndex" class="monster-weakness">
+                                            {{ dictionaryList[weakIndex] }}
+                                            <span>
+                                                <template v-for="n in 3">
+                                                    <i class="fa-star" :class="[n <= weakItem ? 'fas' : 'far']"></i>
+                                                </template>
+                                                ({{ weakItem }})
+                                            </span>
+                                        </div>
+                                    </template>
+                                </template>
+                                <template v-if="nowContent === 'fleshy'">
+                                    <table>
+                                        <tr>
+                                            <th></th>
+                                            <template v-for="(weakItem, weakIndex) in fleshyList.weakness">
+                                                <th :key="weakIndex">{{ dictionaryList[weakItem] }}</th>
+                                            </template>
+                                        </tr>
+                                        <template v-for="(fleshyItem, fleshyIndex) in fleshyList[index]">
+                                            <tr :key="fleshyIndex">
+                                                <th>{{ dictionaryList[fleshyItem.dictionary] }}</th>
+                                                <template v-for="(pointItem, pointIndex) in fleshyItem.weakpoint">
+                                                    <th :key="pointIndex">{{ pointItem }}</th>
+                                                </template>
+                                            </tr>
+                                        </template>
+                                    </table>
+                                </template>
+                            </div>
+                        </div>
+                    </div>
+                </template>
             </div>
             <div class="select-wrap">
-                <i class="fas fa-chevron-up"></i>
-                <div class="select-list"></div>
-                <i class="fas fa-chevron-down"></i>
+                <i class="fas fa-chevron-up" @click="contentUp"></i>
+                <div class="select-list" :class="`select-list${nowMonster}`">
+                    <template v-for="(item, index) in contentList">
+                        <div :key="index" :class="{selected: nowContent === index}" class="select" @click="nowContent = index">{{ dictionaryList[item] }}</div>
+                    </template>
+                </div>
+                <i class="fas fa-chevron-down" @click="contentDown"></i>
             </div>
         </div>
     </div>
